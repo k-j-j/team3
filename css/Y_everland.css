@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+  
+  
+a {
+    text-decoration: none;
+}
+  
+
+body {
+  /* min-width: 280px; */
+  max-width: 640px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-size: 1rem; */
+}
+
+
+
+/* YE_VIDEO */
+#Y_clip {
+  width: 100%;
+  height: 500px;
+  background: url(../Y_img/backgr.png);
+  border-radius: 50px 50px 0 0;
+  margin: 50px 0;
+  padding: 50px 0;
+  /* text-align: center; */
+  position: relative;
+}
+
+#Y_title {
+  font-family: "Jua";
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.Y_t {
+  font-size: 1rem;
+  font-family: "Cafe24SsurroundAir";
+  /* font-weight: bold; */
+}
+
+#Y_v_slide {
+  width: 100%;
+  margin: 50px auto;
+}
+#Y_v_slide li {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: "Cafe24SsurroundAir";
+  line-height: 1rem;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+#Y_v_slide li p {
+  width: 90%;
+  margin: 0 auto;
+  color: #272830;
+}
+#Y_v_slide li .Y_v1 {
+  font-size: 0.6rem;
+  font-weight: normal;
+}
+#Y_v_slide li img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 10px;
+}
+
+#Y_v_slide li:nth-child(1) {
+  border: 1px solid #7F47DD;
+}
+#Y_v_slide li:nth-child(2) {
+  border: 1px solid #FBAE17;
+}
+#Y_v_slide li:nth-child(3) {
+  border: 1px solid #2DBDCA;
+}
+#Y_v_slide li:nth-child(4) {
+  border: 1px solid #7F47DD;
+}
+#Y_v_slide li:nth-child(5) {
+  border: 1px solid #FBAE17;
+}
+#Y_v_slide li:nth-child(6) {
+  border: 1px solid #2DBDCA;
+}
+#Y_v_slide li:nth-child(7) {
+  border: 1px solid #7F47DD;
+}
+#Y_v_slide li:nth-child(8) {
+  border: 1px solid #FBAE17;
+}
+#Y_v_slide li:nth-child(9) {
+  border: 1px solid #2DBDCA;
+}
+#Y_v_slide li:nth-child(10) {
+  border: 1px solid #7F47DD;
+}
+#Y_v_slide li:nth-child(11) {
+  border: 1px solid #FBAE17;
+}
+#Y_v_slide li:nth-child(12) {
+  border: 1px solid #2DBDCA;
+}
+
+#Y_more {
+  width: 100%;
+  margin: 0 auto;
+}
+#Y_v_button {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #272830;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 30px;
+  width: 30%;
+  margin-left: 35%;
+  /* margin: 0 auto; */
+  font-family: "Cafe24SsurroundAir";
+  font-size: 0.7rem;
+  /* text-align: center; */
+}
+#Y_v_button img {
+  width: 10%;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
+
+
+
+/* CAST 공고 배너 */
+#Y_recuit {
+  width: 100%;
+  background: #7F47DD;
+  border-radius: 30px;
+  border: 2px solid rgba(78, 29, 159, 0.6);
+  padding-top: 15px;
+  /* position: relative; */
+  margin-bottom: 50px;
+}
+#Y_cast {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Cafe24SsurroundAir";
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.Y_castimg {
+  width: 30%;
+  margin: 0px 20px 0 auto;
+}
+.Y_castimg img {
+  width: 100%;
+}
+.Y_castbox {
+  left: 20px;
+  position: absolute;
+  /* display: none; */
+}
+.Y_castbox span {
+  font-size: 1.5rem;
+}
+.Y_castbox .Y_a1 {
+  background: rgba(78, 29, 159, 0.6);
+  padding: 5px;
+}
+
+
+
+
+
+
+/* 서브페이지 이동 */
+#Y_sub {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+#Y_submain {
+  display: flex;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+#Y_submain a {
+  display: flex;
+  margin: 0 20px;
+}
+
+
+#Y_carri {
+  width: 100%;
+  border:  2px solid #03a9f4;
+  border-radius: 50px;
+  padding: 10px;
+}
+#Y_carri img {
+  width: 100%;
+}
+
+
+#Y_home {
+  width: 100%;
+  border:  2px solid #3f6d1b;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto 0;
+  padding: 10px;
+}
+#Y_home img {
+  width: 100%;
+}
+

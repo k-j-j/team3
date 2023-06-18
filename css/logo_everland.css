@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+    
+
+
+/* html */
+/* 
+<div id="logo">
+    <div class="container">
+      <h1>EVERLAND</h1>
+    </div>
+  </div>
+*/
+
+
+/* 로고 위치 조정 container */
+/* 조정하고 border 지우기 */
+
+
+ .container{
+  background:#fff;
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-flow:row wrap;
+}
+.container a{
+  width: 100%;
+} 
+
+.container h1 {
+  width: 100%;
+  margin: 0 auto;
+  font-family:'Titan One', 'cursive';
+  font-size: 2.2rem;
+  font-weight: bold;
+  /* align-content:center; */
+  align-content: left;
+  /* justify-content:center; */
+  justify-content: left;
+  /* text-align: center; */
+  text-align: left;
+  height: auto;
+  position:relative;
+}
+.container h1:before {
+  background: linear-gradient(
+    65deg,
+    #ff8ce6,
+    #FDD17D,
+    #7AD9E1,
+    #f394ff,
+    #2dbdca
+  );
+  width: 35%;
+  margin: 0 auto;
+  /* margin-left: 25%; */
+  height: 2.5rem;
+  display:block;
+  position:absolute;
+  content:"";
+  mix-blend-mode:screen;
+}
+
+
+@media screen and (min-width: 519px) and (max-width: 569px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 493px) and (max-width: 518px) {
+  .container h1 {
+    font-size: 1.9rem;
+    margin-top: 3px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 492px) {
+  .container h1 {
+    font-size: 1.6rem;
+    margin-top: 10px;
+  }
+  .container h1:before {
+    height: 2rem;
+  }
+}
+@media screen and (min-width: 260px) and (max-width: 417px) {
+  .container h1 {
+    font-size: 1.5em;
+    margin-top: 12px;
+  }
+  .container h1:before {
+    height: 2rem;
+    width: 55%;
+  }
+}
+@media screen and (min-width: 181px) and (max-width: 259px) {
+  .container h1 {
+    font-size: 1em;
+    margin-top: 15px;
+  }
+  .container h1:before {
+    height: 1.5rem;
+    width: 55%;
+  }
+}

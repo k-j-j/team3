@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=DM+Serif+Display:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    *,*:after,*:before {box-sizing: border-box; }
+    a{text-decoration: none; color: black;}
+
+    body {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/h_img1.jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* 맨 상단 부분 */
+    header{
+        width: 100%;
+        padding: 10px 0 0 25px;
+    }
+
+    /* 로고 부분 */
+    #hb {
+      width: 50%;
+      /* margin-top: 10px;
+      margin-left: 20px; */
+      /* font-family: "DM Serif Display", arial; */
+      font-family: 'PT Serif';
+    }
+    h1 {
+      font-size: 2.2rem;
+      background: linear-gradient(245deg, #fff, #eee 15%, rgb(221, 220, 220) 30%, #fff9 45%, rgba(197, 196, 196, 0.6) 60%, rgb(221, 220, 220) 75%,#eee 90%, #fff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+      background-size: 200% 100%;
+      animation: home 8s linear infinite;
+    }
+
+    @keyframes home {
+      0% {
+        background-position: 0;
+      }
+      50% {
+        background-position: 100%;
+      }
+      100% {
+        background-position: 0;
+      }
+    }
+    /* 로고 종료 */
+
+    /* 우측 아이콘 부분 */
+    .xi{
+        top: 3px;
+        padding: 13px 20px 0 0;
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+    }
+    .xi a{
+        padding: 2px;
+        color: #fff;
+    }
+
+    /* 메인 텍스트 부분 */
+    .text1{
+        position: relative;
+        padding: 100px 20px 0px 25px;
+    }
+    .text1 p{
+        color: #fff;
+    }
+    .text2{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .text3{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .go{
+        position: absolute;
+        background: none;
+        color: #fff;
+        border: 0;
+        font-weight: normal;
+        font-size: 20px;
+        cursor: pointer;
+        outline: none;
+        margin-top: 100px;
+    }
+    .go img{
+        position: absolute;
+        left: 0;
+        margin-top: -13px;
+    }
+    button span{
+        padding-left: 28px;
+    }
+
+   

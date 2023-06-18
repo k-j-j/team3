@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>z-everland</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/z-everland.css">
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="./js/Z_everland.js"></script>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide cf">
+        <img src="./Z_img/e_img1.jpg" />
+      </div>
+      <div class="swiper-slide cf">
+        <img src="./Z_img/e_img2.jpg" />
+      </div>
+      <div class="swiper-slide cf">
+        <img src="./Z_img/e_img3.jpg" />
+      </div>
+      <div class="swiper-slide cf">
+        <img src="./Z_img/e_img4.jpg" />
+      </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+  </div>  
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Swiper Script -->
+  <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+    });
+  </script> -->
+
+  <!-- today start -->
+  <div id="z-today">
+    <h3 class="z-title-large">
+      <p class="z-title-one">TODAY</p>
+      <p class="z-title-two">오늘의 이용시간 & 날씨를 알려드립니다!</p>
+    </h3>
+    <ul>
+      <li>
+        <img src="./Z_img/belt_bg.png" alt="오늘의 이용시간 & 날씨를 알려드립니다!" />
+      </li>
+      <h3 class="z-text-left">
+        <p class="z-text-one">이용시간</p>
+        <p class="z-text-two">10:00 ~ 22:00</p>
+      </h3>
+      <h3 class="z-text-right">
+        <p class="z-text-thr">오늘의 날씨</p>
+        <a href="#" class="z-four-wrap">
+          <p class="z-text-four"><img src="./Z_img/cloud.png" alt="구름">맑음</p>
+        </a>
+        <p class="z-text-five">최고 : 27º 최저 : 18º</p>
+      </h3>
+    </ul>
+  </div>
+  <!-- today end #today -->
+
+  <!-- menubar start -->
+  <div class="z-menubar">
+    <a href="https://www.everland.com/web/everland/how/charge/how_use_method.html" class="line">
+      <span>요금 & 패키지</span>
+    </a>
+    <a href="https://www.everland.com/service/front/frontFavorite.do?method=favorAtrList&siteCode=CT00101&themeCode=CT00401"
+      class="line">
+      <span>어트랙션</span>
+    </a>
+    <a href="#" class="line">
+      <span>가이드 맵</span>
+    </a>
+    <a href="https://reservation.everland.com/web/main.do?method=index" class="line">
+      <span>스마트 예약</span>
+    </a>
+  </div>
+  <!-- menubar end .menubar -->
+</body>
+
+</html>

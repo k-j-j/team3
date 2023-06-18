@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVERLAND_MAIN</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/everland_main.css">
+  <link rel="stylesheet" href="./css/logo_everland.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+  <script src="./js/jquery-1.11.2.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/H_everland.js"></script>
+  <script src="./js/Y_everland.js"></script>
+  <script src="./js/Z_everland.js"></script>
+</head>
+<body>
+    <!-- 접근성 건너뛰기 링크 -->
+    <!-- <div class="skip">
+        <a href="#gnb">메뉴 바로가기</a>
+        <a href="#container">콘텐츠 바로가기</a>
+    </div> -->
+
+
+  <!-- HS_상단 바 -->
+  <header class="H_header cf">
+    <div id="logo">
+        <div class="container">
+            <a href="index.html">
+                <h1>EVERLAND</h1>
+            </a>
+        </div>
+    </div>
+
+    <div class="xi">
+        <!-- <a href="#"><img src="./H_img/cb_icon1.png" alt="icon"></a> -->
+        <? include "t_login1.php"; ?>
+        <!-- <img src="./H_img/cb_icon2.png" alt="icon"></i>
+        <a class="hamburger" href="#"><img src="./H_img/icon4.png" alt="icon"></i></a> -->
+    </div>
+  </header>
+  
+
+  
+
+
+  <!-- HS_Hamberger Menu -->
+  <nav class="menu">
+    <div class="menu1">
+        <div id="logo">
+            <div class="container">
+              <a href="index.html"><h1>EVERLAND</h1></a>
+            </div>
+        </div>
+        <!-- <a href="#"><img class="logo1" src="./H_img/eve_logo.png" alt="에버랜드 로고 이미지"></a> -->
+
+        <div class="search">
+            <input type="text" name="search" class="search" placeholder=" 검색어를 입력해 주세요">
+            <a href="#"><img id="search" src="./H_img/search.png" alt="검색"/></a>
+        </div>
+
+        <nav class="icon">
+          <? include "t_login2.php"; ?>
+            <!-- <a href="#">
+                <img src="./H_img/icon3.png" alt="로그인 아이콘">
+                <span class="text1">로그인</span>
+            </a> -->
+            <a href="https://www.everland.com/web/everland/how/traffic/how_traffic_info04.html">
+                <img src="./H_img/icon2.png" alt="오시는길 아이콘">
+                <span class="text2">오시는길</span>
+            </a>
+            <a href="https://www.everland.com/web/everland/how/amenity/how_amenity.html">
+                <img src="./H_img/icon1.png" alt="편의시설 아이콘">
+                <span class="text3">편의시설</span>
+            </a>
+        </nav>
+      </div>
+    
+      <ul>
+        <li>
+            <a href="#">시설 안내 및 즐길거리<i class="xi-plus"></i></a>
+            <ul class="sub">
+                <li><a href="https://www.everland.com/web/everland/favorite/entertainment/index.html">엔터테인먼트</a></li>
+                <li><a href="https://www.everland.com/web/everland/favorite/zootopia/index.html">주토피아(동물원)</a></li>
+                <li><a href="https://www.everland.com/web/everland/favorite/garden/index.html">플랜토피아(정원)</a></li>
+                <li><a href="https://www.everland.com/web/everland/favorite/restaurant/index.html">레스토랑</a></li>
+                <li><a href="https://www.everland.com/web/everland/favorite/giftshop/index.html">선물샵</a> <span>&</span>
+                <a href="https://brand.naver.com/everland"><span>온라인 굿즈샵</span></a>
+                </li>
+                <li><a href="https://www.everland.com/web/everland/favorite/glamping/index.html">글램핑</a></li>
+            </ul>
+        </li>
+        <li><a href="#">체험프로그램<i class="xi-plus"></i></a>
+            <ul class="sub">
+                <li><a href="https://www.everland.com/web/everland/membership/mem_year/news_event/index.html">멤버쉽</a></li>
+                <li><a href="https://www.everland.com/web/everland/now/special/special_package.html">드림투어</a></li>
+                <li><a href="https://www.everland.com/web/everland/now/experience/now_experience_program.html">체험프로그램</a></li>
+            </ul>
+        </li>
+        <li> <a href="#">단체예약<i class="xi-plus"></i></a>
+            <ul class="sub">
+                <li><a href="https://www.everland.com/everworkshop/index.html">기업</a></li>
+                <li><a href="https://www.everland.com/everedu/index.html">학생</a></li>
+            </ul>
+        </li>
+        <li><a href="#">CAST<i class="xi-plus"></i></a>
+            <ul class="sub">
+                <li><a href="https://www.everland.com/web/everland/recruitment/cast/recruitment/news/recruitment_guide01.html">채용</a></li>
+                <li><a href="https://pvoc.everland.com/">참여</a></li>
+            </ul>
+        </li>
+        <li><a href="https://www.everland.com/web/everland/customercenter/faq/faq.html">고객센터</a></li>
+        <li><a href="https://www.everland.com/web/everland/now/news/news_list.html">뉴스 & 이벤트</a></li>
+      </ul>
+        
+      <button class="cross">&#735;</button>
+    </nav>
+
+
+
+
+
+    <!-- ZW_Mainbanner -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide cf">
+          <img src="./Z_img/e_img1.jpg" />
+        </div>
+        <div class="swiper-slide cf">
+          <img src="./Z_img/e_img2.jpg" />
+        </div>
+        <div class="swiper-slide cf">
+          <img src="./Z_img/e_img3.jpg" />
+        </div>
+        <div class="swiper-slide cf">
+          <img src="./Z_img/e_img4.jpg" />
+        </div>
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+
+
+    <!-- ZW_오늘의 날씨 -->
+    <div id="z-today">
+      <h3 class="z-title-large">
+        <p class="z-title-one">TODAY</p>
+        <p class="z-title-two">오늘의 이용시간 & 날씨를 알려드립니다!</p>
+      </h3>
+      <ul>
+        <li>
+          <img src="./Z_img/belt_bg.png" alt="오늘의 이용시간 & 날씨를 알려드립니다!" />
+        </li>
+        <h3 class="z-text-left">
+          <p class="z-text-one">이용시간</p>
+          <p class="z-text-two">10:00 ~ 22:00</p>
+        </h3>
+        <h3 class="z-text-right">
+          <p class="z-text-thr">오늘의 날씨</p>
+          <a href="#" class="z-four-wrap">
+            <p class="z-text-four"><img src="./Z_img/cloud.png" alt="구름">맑음</p>
+          </a>
+          <p class="z-text-five">최고 : 27º 최저 : 18º</p>
+        </h3>
+      </ul>
+    </div>
+
+
+    <!-- ZW_Bottom Fix Menubar -->
+    <div class="z-menubar">
+      <a href="https://www.everland.com/web/everland/how/charge/how_use_method.html" class="line">
+        <span>요금 & 패키지</span>
+      </a>
+      <a href="https://www.everland.com/service/front/frontFavorite.do?method=favorAtrList&siteCode=CT00101&themeCode=CT00401"
+        class="line">
+        <span>어트랙션</span>
+      </a>
+      <a href="#" class="line">
+        <span>가이드 맵</span>
+      </a>
+      <a href="https://reservation.everland.com/web/main.do?method=index" class="line">
+        <span>스마트 예약</span>
+      </a>
+    </div>
+
+
+
+
+
+
+
+    <!-- YE_VIDEO -->
+  <div id="Y_clip">
+    <div id="Y_title">
+      <h2>Everland's Clips</h2>
+      <p class="Y_t">매일이 즐거운 에버랜드 이야기</p>
+    </div>
+
+    <ul id="Y_v_slide">
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/IcyzJ2BByrE">
+            <img src="./Y_img/video01.jpg" alt="video">
+            <div>
+              <p class="Y_v1">아마존에서~세계일주까지</p>
+              <p>아마존 익스프레스 맥주</p>
+            </div>
+          </a>
+          
+        </div>
+      </li>
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/M3kvOyp6Gps">
+            <img src="./Y_img/video02.jpg" alt="video">
+          </a>
+          <div>
+            <p class="Y_v1">장미도, 사랑도 넘치는</p>
+            <p>우리의 추억 남기기</p>
+          </div>
+        </div>
+      </li>
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/Hj5go9FUlvQ">
+            <img src="./Y_img/video03.jpg" alt="video">
+          </a>
+          <div>
+            <p class="Y_v1">바오가족과 송바오</p>
+            <p>다정 뿜뿜 대화</p>
+          </div>
+        </div>
+      </li>
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/k0iirwnjbpg">
+            <img src="./Y_img/video04.jpg" alt="video">
+          </a>
+          <div>
+            <p class="Y_v1">판타스틱한 친구들을</p>
+            <p>만나보자구</p>
+          </div>
+        </div>
+      </li>
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/X59Ij1mn_1w">
+            <img src="./Y_img/video05.jpg" alt="video">
+          </a>
+          <div>
+            <p class="Y_v1">오래봐도 예쁘다</p>
+            <p>화제의 엔딩송 공개</p>
+          </div>
+        </div>
+      </li>
+      <li class="slick-slide">
+        <div>
+          <a href="https://www.youtube.com/embed/CH10UxDXxWI">
+            <img src="./Y_img/video06.jpg" alt="video">
+          </a>
+          <div>
+            <p class="Y_v1">에버랜드에 피어난 하이키</p>
+            <p>본격 "역주행" 체험</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div id="Y_more">
+      <button id="Y_v_button">
+        더 많은 영상 보러가기
+        <img src="./Y_img/btn_arr.png" alt="arrow">
+      </button>
+    </div>
+  </div>
+
+
+  <!-- CAST 공고 배너 -->
+  <section id="Y_recuit">
+    <div id="Y_cast">
+      <div class="Y_castbox">
+        <p class="Y_cast_title">에버랜드 캐스트 모집</p>
+        <span class="Y_a1">캐스트 소개 및 혜택</span>
+        <span>다운로드(PDF)</span>
+      </div>
+    </div>
+
+    <div class="Y_castimg">
+      <img src="./Y_img/cast_banner 1.png" alt="cast">
+    </div>
+  </section>
+
+
+
+  <!-- 서브페이지 이동 -->
+  <nav id="Y_sub">
+    <div id="Y_submain">
+      <a href="#">
+        <div id="Y_carri">
+          <!-- <div class="Y_content">
+            <h2>Caribbeanbay</h2>
+            <h2>Caribbeanbay</h2>
+          </div> -->
+          <img src="./Y_img/logo_carribean1.png" alt="carribeanbay">
+        </div>
+      </a>
+
+      <a href="#">
+        <div id="Y_home">
+          <!-- <h2>HOMEBRIDGE</h2> -->
+          <img src="./Y_img/logo_home.png" alt="homebridge">
+        </div>
+      </a>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- HS_Footer -->
+  <footer>
+    <a href="index.html"><img src="../H_img/ever_logo.png" alt="logo"></a>
+    <div class="sns">
+        <a href="https://www.youtube.com/user/withEverland"><img src="H_img/youtube.png" alt="유튜브"></a>
+        <a href="https://www.instagram.com/witheverland/"><img src="H_img/instagram.png" alt="인스타"></a>
+        <a href="https://www.facebook.com/witheverland"><img src="H_img/facebook.png" alt="페이스북"></a>
+        <a href="https://blog.naver.com/witheverland"><img src="H_img/bold.png" alt="네이버 블로그"></a>
+        <a href="https://www.witheverland.com/"><img src="H_img/with.png" alt="위드 블로그"></a>
+        <a href="https://twitter.com/witheverland"><img src="H_img/twitter.png" alt="트위터"></a>
+    </div>
+
+        <p>
+            <a class="text5" href="https://www.everland.com/web/everland/resort/intro/resort_intro.html">에버랜드 리조트 소개</a> | 
+            <a class="text5" href="https://www.everland.com/web/everland/provision/h_provision/provision_new.html">이용약관</a> | 
+            <a class="text5" href="https://pvoc.everland.com/">CAST 참여</a> | 
+            <a class="text5" href="https://www.everland.com/web/everland/sitemap/sitemap.html">사이트맵</a>
+        </p>
+
+        <p>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)</p>
+        <p>대표이사 : 정해린 | 사업자등록번호 : 135-85-04288</p>
+        <p>통신판매업 신고번호 : 제2006-용인처인-0216호</p>
+        <p><a class="text5" href="https://www.everland.com/web/everland/customercenter/faq/faq.html"><strong>손님상담센터</strong></a> : 031-320-5000(유료)</p>
+        <p><a class="text5" href="https://www.everland.com/web/everland/personalinfo/index.html"><strong>개인정보처리방침</strong></a> |
+        <a class="text5" href="https://www.everland.com/web/everland/policyrevision/list.html"><strong>방침 개정 안내</strong></a> |
+        <a class="text5" href="https://www.everland.com/web/everland/bidnotice/list.html"><strong>입찰공고</strong></a></p>
+        <p class="text4">Copyright © Samsung C&T Corporation. All rights reserved.</p>
+        </p>
+</footer>
+
+</body>
+</html>

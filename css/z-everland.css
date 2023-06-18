@@ -1,0 +1,270 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Titan+One");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  font: 14px Cafe24SsurroundAir;
+}
+
+.swiper {
+  /* position: static; */
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  margin: 55px 0 10px;
+}
+
+/* .swiper-wrapper {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+} */
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+  .swiper-slide:first-child {
+    transition: transform 100ms;
+  }
+
+  .swiper-slide.swiper-slide-active:first-child {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  .swiper-slide:nth-child(2) {
+    transition: transform 100ms;
+  }
+
+  .swiper-slide.swiper-slide-next:nth-child(2) {
+    transform: translateX(55%);
+    z-index: 1;
+  }
+
+  .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
+    transform: translateX(-50%);
+  }
+
+  .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
+    transform: translateX(-55%);
+  }
+}
+
+.swiper-scrollbar {
+  margin: -20px auto;
+  height: 2px !important;
+  background: #d9d9d9;
+}
+
+.swiper-scrollbar-drag {
+  background: #4e1d9f;
+}
+/* mainbanner end*/
+
+/* 이용시간 & 날씨 start*/
+#z-today {
+  margin: 20% auto;
+  /* margin-bottom: 10px;
+  padding: 60px 20px 30px; */
+  letter-spacing: -1px;
+}
+
+.z-title-large {
+  position: relative;
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 100%;
+}
+
+.z-title-large .z-title-one {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 18px;
+  padding: 0 6%;
+  color: #272830;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.z-title-large .z-title-two {
+  color: #272830;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#z-today ul {
+  /* overflow: hidden; */
+  margin: 8% auto;
+  position: relative;
+  z-index: 99;
+}
+
+#z-today ul li img {
+  width: 100%;
+}
+
+.z-text-left {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-20%, -50%);
+  z-index: 99;
+}
+
+.z-text-left .z-text-one {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 18px;
+  padding: 0;
+  color: #272830;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.z-text-left .z-text-two {
+  color: #272830;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.z-text-right {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 100%;
+  position: absolute;
+  top: 58%;
+  right: 25%;
+  transform: translate(10%, -50%);
+  z-index: 99;
+}
+
+.z-text-right .z-text-thr {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 5px;
+  padding: 0;
+  color: #272830;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.z-text-right .z-four-wrap {
+  position: relative;
+  text-decoration: none;
+}
+
+.z-text-right .z-text-four {
+  color: #272830;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0 0 3px 0;
+}
+
+.z-text-right .z-text-four img {
+  width: 28px;
+  height: 19px;
+  margin: 5px 5px -3px 0;
+}
+
+.z-text-right .z-text-five {
+  display: inline-block;
+  position: relative;
+  margin: 10px 0;
+  padding: 0;
+  color: #272830;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* 이용시간 & 날씨 end */
+
+/* bottom z-menubar start */
+.z-menubar {
+  background-color: #fff;
+  width: 100%;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 0;
+  border: 2px solid #4e1d9f;
+  border-radius: 35px 35px 0px 0px;
+  font-family: 'Cafe24Ssurround';
+}
+
+.z-menubar .line {
+  width: calc(25% - 1px);
+  border-left: 2px solid #4e1d9f;
+}
+
+.z-menubar .line>span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.z-menubar .line:first-child {
+  border-left: 0;
+}
+
+.z-menubar a {
+  padding: 10px 0 10px;
+  display: inline-block;
+}
+
+.z-menubar a:nth-child(1) {
+  color: #3c8e3d;
+}
+
+.z-menubar a:nth-child(2) {
+  color: #118df8;
+}
+
+.z-menubar a:nth-child(3) {
+  color: #ff5a03;
+}
+
+.z-menubar a:nth-child(4) {
+  color: #764aa2;
+}
+/* bottom z-menubar end */
